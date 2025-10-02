@@ -1,7 +1,9 @@
 import { useEffect, useRef, useState } from 'react';
 import { App } from '@capacitor/app';
 import { Haptics, ImpactStyle } from '@capacitor/haptics';
-import { Capacitor } from '@capacitor/core';
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+// import { Capacitor } from '@capacitor/core';
+
 import type { PluginListenerHandle } from '@capacitor/core';
 import { getJSON, setJSON } from '../lib/storage';
 import { cancelNotification, scheduleEndNotification } from '../lib/notifications';
