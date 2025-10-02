@@ -1,6 +1,4 @@
 export type Mode = 'work' | 'break';
-
-
 export interface PomodoroState {
 mode: Mode;
 isRunning: boolean;
@@ -10,8 +8,6 @@ remainingMs: number; // cập nhật UI khi ở foreground
 completedCount: number; // số phiên work đã hoàn thành
 useCustomSound: boolean; // mở rộng: chọn âm báo tùy chọn
 }
-
-
 export interface SessionItem {
 id: string;
 mode: Mode;
