@@ -35,7 +35,7 @@ Android Home:
 - Chọn **Work** hoặc **Break**.  
 - Hiển thị bộ đếm ngược.  
 ![](./images/web.png)  
-![](./images/android_home.png.png)
+![](./images/android_home.png)
 
 ### 2. Thông báo & Rung
 - Hết phiên → hiển thị Local Notification + rung.  
